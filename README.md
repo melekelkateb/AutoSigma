@@ -1,7 +1,7 @@
 # 🔐 Sigma Rule Generator & Tester
 
-![Stars](https://img.shields.io/github/stars/melekelkateb/sigma_gen?style=flat&color=yellow)
-![Forks](https://img.shields.io/github/forks/melekelkateb/sigma_gen?style=flat&color=blue)
+![Stars](https://img.shields.io/github/stars/melekelkateb/AutoSigma?style=flat&color=yellow)
+![Forks](https://img.shields.io/github/forks/melekelkateb/AutoSigma?style=flat&color=blue)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 
 ---
