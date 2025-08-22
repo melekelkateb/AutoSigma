@@ -1,0 +1,17 @@
+title: Suspicious PowerShell Base64 Execution
+description: Detects PowerShell commands using base64 encoding
+status: experimental
+author: SOC Analyst
+date: 2025-08-21
+logsource:
+  category: process_creation
+  product: windows
+detection:
+  selection:
+    CommandLine|contains:
+      - -enc
+      - -EncodedCommand
+  condition: selection
+level: high
+tags:
+- attack.execution
